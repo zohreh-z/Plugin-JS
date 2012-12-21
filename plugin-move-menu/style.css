@@ -1,0 +1,62 @@
+ul.lavaLamp{
+	position: absolute;
+	top: 30px;
+	left: 325px;
+	height: 26px;
+	width: 548px;
+	background: url('./images/menu.png') no-repeat top left;
+	margin: 0;
+	padding: 3px;
+	z-index: 1000;
+}
+ul.lavaLamp li{
+	height: 26px;
+	float: left;
+	margin-right:10px;
+	list-style: none;
+	position: relative;
+	z-index: 1000;
+}
+
+ul.lavaLamp li a{
+	position: relative;
+	overflow: hidden;
+	text-decoration: none;
+	text-transform: uppercase;
+	font: bold 0.95em Georgia, "Times New Roman", Times, serif;
+	line-height: 0.95em;
+	color: black;
+	outline: none;
+	text-align: center;
+	height: 26px;
+	top: 3px;
+	z-index: 10;
+	letter-spacing: 0;
+	float: left;
+	display: block;
+	margin: 5px 18px;
+	z-index: 1000;
+}
+
+ul.lavaLamp li a:hover{
+	color: red;
+}
+.lavaLamp li.back{
+	background: url('./images/m_right.png') no-repeat top right;
+	width: 7px;
+	height: 26px;
+	z-index: 8;
+	position: absolute;
+	-webkit-transition:all 1s;
+} 
+
+.lavaLamp li.back div.left{
+	background: url('./images/m_left.png') no-repeat top left;
+	height: 26px;
+	margin-right: 7px;
+}
+
+ul.lavaLamp li.current_page_item a{
+
+	color: red;
+}
